@@ -1,7 +1,7 @@
 # 📝Pymc 라이브러리 학습 관련 정리
 🔗관련 링크: https://ddangchani.github.io/pymc/
 
-## ch_1: PyMC and Bayesian
+## CH1: PyMC and Bayesian
 
 ### [실습 기록] PyMC 베이지안 추론 결과 해석 가이드
 
