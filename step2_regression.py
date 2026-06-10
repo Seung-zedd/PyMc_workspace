@@ -37,10 +37,9 @@ def main():
         graph.render("model_structure", format="png", cleanup=True)
         print("💡 모델 구조 그래프('model_structure.png')가 저장되었습니다.")
 
-        # 3. MCMC 샘플링 (Metropolis 사용)
+        # 3. MCMC 샘플링 (MH 알고리즘 대신 step 인자를 제거함으로써 자동으로 NUTS 사용)
         print("샘플링을 시작합니다...")
-        step = pm.Metropolis()
-        trace = pm.sample(draws=2000, tune=1000, step=step, return_inferencedata=True)
+        trace = pm.sample(draws=2000, tune=1000, return_inferencedata=True)
 
     # 4. 결과 요약 출력
     print("\n[사후분포 요약 통계량]")

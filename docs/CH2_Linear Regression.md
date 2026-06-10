@@ -15,6 +15,12 @@
 
 ---
 
+## 1-1. 모델 구조 그래프
+
+![Model Structure](../assets/visual_data/model_structure.png)
+
+<br>
+
 ## 2. Trace Plot 시각화 분석
 
 ![Figure 2](../assets/visual_data/Figure_2.png)
